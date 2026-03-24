@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 app.get("/", (req, res) => {
-  res.send("This is a devops page!! for cI/cD pipleine");
+  res.send("This is the devops page!! for cI/cD pipleine");
 });
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
